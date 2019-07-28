@@ -1,3 +1,10 @@
+Tentative stuff:
+
+project to have multiple pages scraped from sources like nyyimby
+overlay of locations using google maps api
+post and delete comments with sign up - google accounts
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
