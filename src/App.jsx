@@ -8,7 +8,16 @@ class App extends Component {
 			<div>
 				{" "}
 				<Navibar />
-				<Trending />
+				<div className="container">
+					<div className="row">
+						<div className="col">
+							<Trending />
+						</div>
+						<div className="col">
+							<h1>Temp Space Holder</h1>
+						</div>
+					</div>
+				</div>
 			</div>
 		);
 	}
