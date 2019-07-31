@@ -6,7 +6,7 @@ class Navibar extends Component {
 		return (
 			<div>
 				<Navbar bg="dark" variant="dark">
-					<Navbar.Brand href="#home">City Improper</Navbar.Brand>
+					<Navbar.Brand href="#home">ICON GOES HERE</Navbar.Brand>
 					<Nav className="mr-auto">
 						<Nav.Link href="#home">Home</Nav.Link>
 						<Nav.Link href="#features">Features</Nav.Link>
