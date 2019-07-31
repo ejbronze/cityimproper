@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navibar from "./components/navbar";
 import Trending from "./components/trending";
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 class App extends Component {
 	render() {
@@ -10,13 +11,8 @@ class App extends Component {
 				{" "}
 				<Navibar />
 				<Header />
-				<div className="container">
-					<div className="row">
-						<div className="col">
-							<Trending />
-						</div>
-					</div>
-				</div>
+				<Trending />
+				<Footer />
 			</div>
 		);
 	}
