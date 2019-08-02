@@ -1,21 +1,14 @@
 import React, { Component } from "react";
-import Navibar from "./components/navbar";
-import Trending from "./components/trending";
-import Header from "./components/header";
-import Footer from "./components/footer";
+import Home from "./components/home";
 
 class App extends Component {
-	render() {
-		return (
-			<div>
-				{" "}
-				<Navibar />
-				<Header />
-				<Trending />
-				<Footer />
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div>
+        <Home />
+      </div>
+    );
+  }
 }
 
 export default App;
