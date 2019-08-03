@@ -21,7 +21,7 @@ class Navibar extends Component {
 					</Nav>
 					<Form inline>
 						{/* <FormControl type="text" placeholder="Search" className="mr-sm-2" /> */}
-						<Button variant="outline-light">Log In</Button>
+						<Button variant="outline-light mr-3">Log In</Button>
 					</Form>
 				</Navbar>
 			</div>
