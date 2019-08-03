@@ -8,7 +8,7 @@ class Trending extends Component {
 				<div className="col-lg-3 mb-5">
 					<div className="card h-100">
 						<div className="card-body">
-							<h4 className="card-title">Card title</h4>
+							<h4 className="card-title text-center text-center">Card title</h4>
 						</div>
 						<img
 							className="card-img-top"
@@ -31,7 +31,7 @@ class Trending extends Component {
 				<div className="col-lg-3 mb-5">
 					<div className="card h-100">
 						<div className="card-body">
-							<h4 className="card-title">Card title</h4>
+							<h4 className="card-title text-center">Card title</h4>
 						</div>
 						<img
 							className="card-img-top"
@@ -54,7 +54,7 @@ class Trending extends Component {
 				<div className="col-lg-3 mb-5">
 					<div className="card h-100">
 						<div className="card-body">
-							<h4 className="card-title">Card title</h4>
+							<h4 className="card-title text-center">Card title</h4>
 						</div>
 						<img
 							className="card-img-top"
@@ -77,7 +77,7 @@ class Trending extends Component {
 				<div className="col-lg-3 mb-5">
 					<div className="card h-100">
 						<div className="card-body">
-							<h4 className="card-title">Card title</h4>
+							<h4 className="card-title text-center">Card title</h4>
 						</div>
 						<img
 							className="card-img-top"

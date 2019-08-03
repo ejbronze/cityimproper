@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import Background from "./images/bronx.jpg";
+import Logo from "./images/newlogo.png";
 
-var headerStyle = {
+const headerStyle = {
   backgroundImage: `url(${Background})`,
   backgroundSize: "cover",
-  overflow: "hidden"
+  overflow: "hidden",
 };
 
 class Header extends Component {
@@ -13,12 +14,13 @@ class Header extends Component {
       <div>
         <header style={headerStyle} className="py-5 mb-5">
           <div className="container h-100">
-            <div className="row h-100 align-items-center">
+            <div className="row h-100 align-items-center bg-dark">
               <div className="col-lg-12">
-                <h1 className="display-4 text-white mt-5 mb-2">
+                {/* <h1 className="display-4 mt-5 mb-2 text-center text-white">
                   City Improper
-                </h1>
-                <p className="lead mb-5 text-white-50">
+                </h1> */}
+                <img className= "rounded mx-auto d-block" style={{ width: 480, height: 90}} src={Logo}></img>
+                <p className="lead mb-5 text-center text-light">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
                   possimus ab labore provident mollitia. Id assumenda voluptate
                   earum corporis facere quibusdam quisquam iste ipsa cumque unde
