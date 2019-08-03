@@ -7,13 +7,15 @@ import {
 	Button
 	//   FormGroup
 } from "react-bootstrap";
+import Logo from "./images/newlogo.png";
+
 
 class Navibar extends Component {
 	render() {
 		return (
 			<div>
 				<Navbar bg="dark" variant="dark">
-					<Navbar.Brand href="#home">ICON GOES HERE</Navbar.Brand>
+					<Navbar.Brand href="#home"><img style={{ width: 170, height: 30 }} src={Logo}></img></Navbar.Brand>
 					<Nav className="mr-auto">
 						<Nav.Link href="#home">Home</Nav.Link>
 						<Nav.Link href="#features">Features</Nav.Link>
